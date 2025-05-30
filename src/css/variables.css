@@ -1,0 +1,12 @@
+:root {
+    --bcg-color: #0e0f1a;              /* Fundo principal bem escuro */
+    --white: #ffffff;                  /* Branco puro (usado com moderação) */
+    --text-color: #e4e6eb;             /* Cinza claro – ótimo para textos principais */
+    --primary-color: #4a90e2;          /* Azul moderno (destaques, botões principais) */
+    --dark-secondary-color: #1a1c2c;   /* Fundo para cards/menus – mais claro que o fundo geral */
+    --tertiary-color: #12162d;         /* Cinza médio – cor neutra para botões secundários, ícones */
+    --light-tertiary-color: #818cc9;   /* Cinza claro – hover, ícones suaves, bordas, info secundária */
+    --tertiary-color-rgb: 18, 22, 45;  /* Valores RGB para uso com rgba() */
+    
+    --font-family: 'DM Sans', sans-serif;
+}

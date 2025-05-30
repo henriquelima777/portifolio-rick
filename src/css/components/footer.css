@@ -1,0 +1,83 @@
+footer {
+    background-color: var(--light-tertiary-color);
+    color: var(--white);
+}
+
+footer .footer__content {
+    text-align: center;
+    padding: 6rem 2rem 1rem;
+    max-width: 47rem;
+}
+
+footer .footer__content h2{
+    color: var(--tertiary-color);
+}
+
+footer .footer__content .footer__contact span {
+    display: block;
+    font-weight: 500;
+}
+
+footer .footer__content ul li {
+    display: inline-block;
+}
+
+footer .footer__content ul a {
+    display: inline-block;
+    padding: 1rem;
+    font-size: 1.9rem;
+}
+
+footer .footer__content ul a:hover {
+    color: var(--tertiary-color);
+    transform: scale(1.03);
+}
+
+footer .footer__content .footer__copyright {
+    font-size: 1.4rem;
+}
+
+/* Estilos para o formulário de contato */
+.contact-form {
+    width: 100%;
+    max-width: 40rem;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 0.8rem;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 4px;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: var(--white);
+    font-family: 'DM Sans', sans-serif;
+}
+
+.form-group textarea {
+    resize: vertical;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    outline: none;
+    border-color: var(--tertiary-color);
+    box-shadow: 0 0 0 2px rgba(var(--tertiary-color-rgb), 0.2);
+}
+
+.contact-form .btn {
+    margin-top: 1rem;
+    width: 100%;
+}
